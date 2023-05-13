@@ -1,0 +1,93 @@
+.canvasBorder {
+    border: 2px solid #521d28;
+    box-sizing: border-box;
+    padding: 15px;
+    /* width: 800px; */
+    /* height: 800px; */
+}
+
+body{
+    overflow: hidden;
+  width: 90%;
+}
+
+canvas{
+    margin: 7% 30%;
+}
+
+.s3 {
+  
+}
+.s4 {
+
+}
+
+
+.buttons{
+    background-color: #FFAABB;
+    border: 2px solid #521d28;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #521d28;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.buttons:focus-visible {
+    box-shadow: #521d28 0 0 0 2px, #b87986 0 0 0 4px;
+    transition: box-shadow .2s;
+}
+.buttons:active {
+    background-color: #521d28;
+    border-color: #b87986;
+    color: #b87986;
+    transform: scale(.96);
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 35px;
+    position: relative;
+    bottom: 430px;
+    left: 80px;
+    height: 300px;
+    width: 170px;
+    /*margin-top: auto;
+    margin-bottom: 30%;
+    margin-left: 10%;*/
+}
+
+.countGameProgressContainer{
+    width: 100px;
+    height: 60px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #521d28;
+    position: relative;
+    bottom: 940px;
+    /*left: 445px;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+}
+ul {
+    position: absolute;
+    bottom: 100px;
+}
